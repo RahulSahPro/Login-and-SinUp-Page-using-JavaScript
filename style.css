@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0, 0, 50px #8E54E9;
+    background: rgba(231, 226, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-box {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px 5cqh;
+    margin-inline: 20px;
+    box-shadow:20, 20,50px #4776E6;
+    
+}
+
+.form-box h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    padding: 20px;
+
+}
+
+.form-box form {
+    margin-block: 12px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background-color: rgba(222, 226, 255, 255);
+    font-size: 15px;
+
+}
+
+a {
+    text-decoration: none;
+    margin-left: 12px;
+    color: rgb(154, 147, 147);
+
+}
+
+input[type="button"] {
+    margin-top: 40px;
+    width: 110px;
+    height: 50px;
+    margin-left: 100px;
+    font-weight: 750;
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 12px;
+    display: block;
+    cursor: pointer;
+
+}
+
+input[type="button"]:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+
+}
+
+ input[type = "text"]  {
+    display: none;
+}
+
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.links a img {
+    max-height: 32px;
+    margin-top: 10px;
+    margin-inline: 5px;
+}
+
+.signup {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.signup a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #8E54E9;
+}
+
+.signup a:hover {
+    color: #4776E6;
+    text-decoration: 2px solid blue underline;
+    text-underline-offset: 3.5px;
+}
+
+/* For making it Responsive */
+
+@media screen and (max-width: 700px){
+    .form-box {
+        width: 100%;
+    }
+}
